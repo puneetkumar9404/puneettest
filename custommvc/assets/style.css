@@ -1,0 +1,168 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Table header styles */
+table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Table row styles */
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Table row hover effect */
+table tr:hover {
+  background-color: #e1e1e1;
+}
+
+/* Table action links */
+table td a {
+  display: inline-block;
+  padding: 4px 8px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+table td a:hover {
+  background-color: #0056b3;
+}
+
+/* Table image styles */
+table td img {
+  max-width: 100px;
+  max-height: 100px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/** Form CSS **/
+
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Form input field styles */
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="tel"],
+.form-container input[type="date"],
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Form file input field styles */
+.form-container input[type="file"] {
+  margin-bottom: 10px;
+}
+
+/* Form submit button styles */
+.form-container input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-container input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: #ff0000;
+}
+
+.form-container label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.main-title{
+	text-align: center;
+}
+/** Edit Form Style **/
+.edit-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Edit form input field styles */
+.edit-container input[type="text"],
+.edit-container input[type="email"],
+.edit-container input[type="tel"],
+.edit-container input[type="date"],
+.edit-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.edit-container input[type="file"] {
+  margin-bottom: 10px;
+}
+
+.edit-container input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.edit-container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+p.edit-btns {
+    display: inline;
+}
+.edit-container input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: #ff0000;
+}
+
+.edit-container label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+label.error {
+    color: darkred;
+}
